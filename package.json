@@ -1,13 +1,14 @@
 {
   "name": "react-native-simple-auth",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Native social authentication for React Native",
   "main": "index.js",
   "scripts": {
     "build": "babel . --out-dir dist --ignore=dist,node_modules",
     "pretest": "eslint lib",
     "test": "mocha lib/**/*.test.js --require babel-register",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "preinstall": "npm install --save react-native-safari-view@2.0.0"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "hmacsha1": "^1.0.0",
-    "ramda": "^0.22.1"
+    "ramda": "^0.22.1",
+    "react-native-safari-view": "2.0.0"
   }
 }
