@@ -19,7 +19,9 @@ Source of example app: https://github.com/adamjmcgrath/ReactNativeSimpleAuthExam
 
 Install
 =======
-- `yarn add react-native-simple-auth`
+- `npm install --save react-native-safari-view@">=2.0.0"`
+- `react-native link react-native-safari-view`
+- `npm install --save react-native-simple-auth`
 - Set up deep linking for your Android and iOS application using the instructions on the [react-native website](https://facebook.github.io/react-native/docs/linking.html) (set the `launchMode` of `MainActivity` to `singleTask` in `AndroidManifest.xml`, create the deep link schemes in [Providers Setup](#providers-setup))
 - Set up your OAuth Providers
 
